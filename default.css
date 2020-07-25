@@ -82,13 +82,11 @@ textarea {
   display: grid;
   text-align: center;
   align-content: center;
-  border: 2px dashed lightcoral;
   min-height: 5em;
 }
 
 .intro-wrapper {
   background-color: var(--secondaryColor);
-  border: 1px solid var(--borderColor);
   -webkit-box-shadow: 28px 29px 28px -1px rgba(0, 0, 0, 0.24);
   -moz-box-shadow: 28px 29px 28px -1px rgba(0, 0, 0, 0.24);
   box-shadow: 28px 29px 28px -1px rgba(0, 0, 0, 0.24);
@@ -102,17 +100,14 @@ textarea {
 }
 
 .nav-wrapper {
-  border: 1px dashed lightcoral;
   grid-area: nav-wrapper;
 }
 
 .left-column {
-  border: 1px dashed lightcoral;
   grid-area: left-column;
 }
 
 .right-column {
-  border: 1px dashed lightcoral;
   grid-area: right-column;
 }
 
