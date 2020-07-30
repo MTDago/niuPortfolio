@@ -86,6 +86,7 @@ textarea {
 }
 
 .intro-wrapper {
+  border-radius: 10px 10px 0 0;
   background-color: var(--secondaryColor);
   -webkit-box-shadow: 28px 29px 28px -1px rgba(0, 0, 0, 0.24);
   -moz-box-shadow: 28px 29px 28px -1px rgba(0, 0, 0, 0.24);
@@ -100,7 +101,28 @@ textarea {
 }
 
 .nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   grid-area: nav-wrapper;
+  border-bottom: 1px solid var(--borderColor);
+}
+
+.dots-wrapper {
+  display: flex;
+  padding: 10px;
+}
+
+.browser-dots {
+  background-color: black;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin: 5px;
+
+  -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 }
 
 .left-column {
