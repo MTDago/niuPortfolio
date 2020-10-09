@@ -1,72 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <link rel="stylesheet" type="text/css" href="default.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto+Mono:wght@500&display=swap"
-      rel="stylesheet"
-    />
-
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>React App</title>
-  </head>
-  <body>
-    <section class="s1">
-      <div class="main-container">
-        <div class="greeting-wrapper">
-          <h1>Hi, I'm Michael</h1>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="stylesheet" type="text/css" href="default.css" />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto+Mono:wght@500&display=swap"
+  rel="stylesheet"
+  />
+  
+  <meta
+  name="description"
+  content="Web site created using create-react-app"
+  />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>React App</title>
+</head>
+<body>
+  <section class="s1">
+    <div class="main-container">
+      <div class="greeting-wrapper">
+        <h1>Hi, I'm Michael</h1>
+      </div>
+      <div class="intro-wrapper">
+        <div class="nav-wrapper">
+          <div class="dots-wrapper">
+            <div id="dot-1" class="browser-dots"></div>
+            <div id="dot-2" class="browser-dots"></div>
+            <div id="dot-3" class="browser-dots"></div>
+          </div>
+          <ul id="navigation">
+            <li><a href="#">Contact</a></li>
+          </ul>
         </div>
-        <div class="intro-wrapper">
-          <div class="nav-wrapper">
-            <div class="dots-wrapper">
-              <div id="dot-1" class="browser-dots"></div>
-              <div id="dot-2" class="browser-dots"></div>
-              <div id="dot-3" class="browser-dots"></div>
-            </div>
-            <ul id="navigation">
-              <li><a href="#">Contact</a></li>
-            </ul>
+        <div class="left-column">
+          <img id="profile_pic" src="./images/Heath_Adams.jpg" alt="Heath Adams" />
+          <h5 style="text-align: center; line-height: 0;">Personalise Theme</h5>
+          <div id="theme-options-wrapper">
+            <div id="light-mode" class="theme-dot"></div>
+            <div id="blue-mode" class="theme-dot"></div>
+            <div id="green-mode" class="theme-dot"></div>
+            <div id="purple-mode" class="theme-dot"></div>
           </div>
-          <div class="left-column">
-            <img id="profile_pic" src="./images/Heath_Adams.jpg" alt="Heath Adams" />
-            <h5 style="text-align: center; line-height: 0;">Personalise Theme</h5>
-            <div id="theme-options-wrapper">
-              <div id="light-mode" class="theme-dot"></div>
-              <div id="blue-mode" class="theme-dot"></div>
-              <div id="green-mode" class="theme-dot"></div>
-              <div id="purple-mode" class="theme-dot"></div>
+          <p id="settings-note">Theme settings will be saved<br/> for when you come back</p>
+        </div>
+        <div class="right-column">
+          <div id="preview-shadow">
+            <div id="preview">
+              <div id="corner-tl" class="corners"></div>
+              <div id="corner-tr" class="corners"></div>
+              <h3>What I Do</h3>
+              <p>I work remotely as a business development manager</p>
+              <div id="corner-bl" class="corners"></div>
+              <div id="corner-br" class="corners"></div>
             </div>
-            <p id="settings-note">Theme settings will be saved<br/> for when you come back</p>
-          </div>
-          <div class="right-column">
-            <p>Right-column</p>
           </div>
         </div>
       </div>
-    </section>
-    <section class="s2">
-      <div class="main-container">
-        <p>About</p>
-      </div>
-    </section>
-    <section class="s1">
-      <div class="main-container">
-        <p>Portfolio</p>
-      </div>
-    </section>
-    <section class="s2">
-      <div class="main-container">
-        <p>Contact</p>
-      </div>
-    </section>
-  </body>
+    </div>
+  </section>
+  <section class="s2">
+    <div class="main-container">
+      <p>About</p>
+    </div>
+  </section>
+  <section class="s1">
+    <div class="main-container">
+      <p>Portfolio</p>
+    </div>
+  </section>
+  <section class="s2">
+    <div class="main-container">
+      <p>Contact</p>
+    </div>
+  </section>
+</body>
 </html>
