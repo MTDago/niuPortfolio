@@ -260,6 +260,26 @@ textarea {
 .about-wrapper{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  padding-bottom: 50px;
+  padding-top: 50px;
+  gap: ;
+}
+
+#skills{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--previewShadow);
+}
+
+.social-links{
+  display: grid;
+  align-content: center;
+  text-align: center;
+
+}
+
+#social-image{
+  width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
